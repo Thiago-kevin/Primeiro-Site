@@ -1,0 +1,128 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+@font-face {
+    font-family: 'Android';
+    src: url(idroid.otf) format('opentype');
+    font-weight: normal;
+}
+body{
+    background-color: #F2CDAC;
+    
+}
+main{
+    min-width:320px;
+    max-width:816px;
+    margin: auto;
+    padding:30px ;
+}
+:root{
+    --cor0:#F2CDAC;
+    --cor1:#BF846F;
+    --cor2:#8C423B;
+    --cor3:#F2F2F2;
+    --cor4:#595959;
+
+    --font-padrao:Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-android: 'Android' , arial;
+
+}
+
+header>h1{
+    color:var(--cor3);
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+header>p{
+    
+    
+    color:var(--cor3);
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    
+    
+}
+header{
+    background-image: linear-gradient(to bottom,rgb(130, 130, 252),rgb(22, 22, 255));
+    min-height:150px;
+    text-align: center;
+    padding-top:80px ;
+    
+    
+}
+nav{
+    background-color: rgb(1, 1, 148);
+    padding:10px ;
+    
+}
+nav>a{
+    color: var(--cor3);
+    text-decoration: none;
+    padding-right:5px ;
+    transition-duration: .5s;
+    
+    
+}
+nav>a:hover{
+    background-color: azure;
+    color: blue;
+}
+h2{
+    font-family: var(--fonte-android);
+    color: green;
+}
+main{
+    background-color: white;
+}
+footer{
+    
+    background-color: brown;
+    color: white;
+    
+    padding:10px ;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+article>h1{
+    text-align: center;
+
+}
+article>h2{
+    text-align: center;
+}
+main p{
+    text-align: justify;
+    text-indent: 10px;
+}
+p>a{
+    text-decoration: none;
+}
+h3{
+    background-color: #8C423B;
+    color: #F2CDAC;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+article>h1{
+    color: #8C423B;
+}
+aside>ul{
+    list-style-position: inside;
+    columns: 2;
+}
+aside{
+    background-color: rgb(196, 196, 224);
+   padding: 10px;
+   border-radius: 0px 0px 10px 10px;
+}
